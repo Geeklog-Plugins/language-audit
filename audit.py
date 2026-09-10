@@ -4,7 +4,8 @@
 The English file (language/english.php) is the reference. The audit checks the
 main FR/DE/ES/JA language files and reports missing translation keys.
 
-Language PHP files are parsed as text; they are never executed.
+Language PHP files are parsed as text; they are never executed. Simple local
+require/include wrappers used by Geeklog language files are followed safely.
 """
 
 from __future__ import annotations
@@ -247,9 +248,35 @@ def parse_literal_key(text: str) -> Optional[str]:
     return None
 
 
-def parse_php_language(path: Path) -> Set[Key]:
+def local_includes(text: str) -> List[str]:
+    """Return simple local PHP files referenced through __FILE__/__DIR__."""
+    patterns = [
+        r"(?:require|require_once|include|include_once)\s*(?:\(\s*)?dirname\s*\(\s*__FILE__\s*\)\s*\.\s*['\"]/?([^'\"]+\.php)['\"]",
+        r"(?:require|require_once|include|include_once)\s*(?:\(\s*)?__DIR__\s*\.\s*['\"]/?([^'\"]+\.php)['\"]",
+    ]
+    found: List[str] = []
+    for pattern in patterns:
+        found.extend(re.findall(pattern, text, flags=re.I))
+    return found
+
+
+def parse_php_language(path: Path, seen: Optional[Set[Path]] = None) -> Set[Key]:
+    path = path.resolve()
+    if seen is None:
+        seen = set()
+    if path in seen or not path.is_file():
+        return set()
+    seen.add(path)
+
     text = path.read_text(encoding="utf-8", errors="replace")
     keys: Set[Key] = set()
+
+    # Follow only local PHP includes from the same language directory.
+    language_dir = path.parent.resolve()
+    for relative in local_includes(text):
+        included = (path.parent / relative).resolve()
+        if included.parent == language_dir and included.suffix.lower() == ".php":
+            keys.update(parse_php_language(included, seen))
 
     # Standard Geeklog style: $LANG_FOO = array(...) or $LANG_FOO = [...]
     assign = re.compile(r"\$(LANG[A-Za-z0-9_]*)\s*=\s*(?:array\s*\(|\[)", re.I)
