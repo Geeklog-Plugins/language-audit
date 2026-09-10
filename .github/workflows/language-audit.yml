@@ -24,7 +24,7 @@ jobs:
 
       - name: Commit report when changed
         run: |
-          if git diff --quiet REPORT.md; then
+          if [ -z "$(git status --porcelain -- REPORT.md)" ]; then
             echo "No report changes."
             exit 0
           fi
