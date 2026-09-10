@@ -1,6 +1,6 @@
 # Geeklog Plugins — Language Audit
 
-Generated: **2026-09-10 13:07 UTC**  
+Generated: **2026-09-10 13:14 UTC**  
 Organization: **Geeklog-Plugins**  
 Plugins audited: **35**
 
@@ -41,7 +41,7 @@ English (`language/english.php`) is the reference. Only plugins/languages requir
 | [store](https://github.com/Geeklog-Plugins/store) | ✅ | ❌ missing | ❌ missing | ❌ missing |
 | [tag](https://github.com/Geeklog-Plugins/tag) | ❌ missing | ❌ missing | ❌ missing | ✅ |
 | [themedit](https://github.com/Geeklog-Plugins/themedit) | ❌ missing | ❌ missing | ❌ missing | ✅ |
-| [videos](https://github.com/Geeklog-Plugins/videos) | ⚠️ 512 missing | ❌ missing | ❌ missing | ❌ missing |
+| [videos](https://github.com/Geeklog-Plugins/videos) | ⚠️ 5 missing | ❌ missing | ❌ missing | ❌ missing |
 | [vthemes](https://github.com/Geeklog-Plugins/vthemes) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
 
 Legend: ✅ complete · ⚠️ language file exists but keys are missing · ❌ language file not found.
