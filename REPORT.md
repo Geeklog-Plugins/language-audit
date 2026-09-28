@@ -1,6 +1,6 @@
 # Geeklog Plugins — Language Audit
 
-Generated: **2026-09-21 12:03 UTC**  
+Generated: **2026-09-28 12:58 UTC**  
 Organization: **Geeklog-Plugins**  
 Plugins audited: **39**
 
@@ -38,7 +38,7 @@ English (`language/english.php`) is the reference. Only plugins/languages requir
 | [monitor](https://github.com/Geeklog-Plugins/monitor) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
 | [nettools](https://github.com/Geeklog-Plugins/nettools) | ❌ missing | ❌ missing | ❌ missing | ✅ |
 | [ogp](https://github.com/Geeklog-Plugins/ogp) | ❌ missing | ❌ missing | ❌ missing | ⚠️ 2 missing |
-| [paypal](https://github.com/Geeklog-Plugins/paypal) | ⚠️ 2 missing | ❌ missing | ❌ missing | ❌ missing |
+| [paypal](https://github.com/Geeklog-Plugins/paypal) | ✅ | ❌ missing | ❌ missing | ❌ missing |
 | [quiz](https://github.com/Geeklog-Plugins/quiz) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
 | [recaptcha](https://github.com/Geeklog-Plugins/recaptcha) | ✅ | ❌ missing | ❌ missing | ✅ |
 | [searchrank](https://github.com/Geeklog-Plugins/searchrank) | ❌ missing | ✅ | ❌ missing | ✅ |
