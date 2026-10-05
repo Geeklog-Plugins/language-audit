@@ -1,8 +1,8 @@
 # Geeklog Plugins — Language Audit
 
-Generated: **2026-09-28 12:58 UTC**  
+Generated: **2026-10-05 13:40 UTC**  
 Organization: **Geeklog-Plugins**  
-Plugins audited: **39**
+Plugins audited: **40**
 
 English (`language/english.php`) is the reference. Only plugins/languages requiring attention are listed.
 
@@ -10,20 +10,17 @@ English (`language/english.php`) is the reference. Only plugins/languages requir
 |---|---:|---:|---:|---:|
 | [agent](https://github.com/Geeklog-Plugins/agent) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
 | [amazonlinks](https://github.com/Geeklog-Plugins/amazonlinks) | ✅ | ❌ missing | ❌ missing | ❌ missing |
-| [analytics](https://github.com/Geeklog-Plugins/analytics) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
 | [autotags](https://github.com/Geeklog-Plugins/autotags) | ❌ missing | ❌ missing | ❌ missing | ✅ |
 | [Bad-Behavior2](https://github.com/Geeklog-Plugins/Bad-Behavior2) | ❌ missing | ✅ | ❌ missing | ❌ missing |
 | [ban](https://github.com/Geeklog-Plugins/ban) | ❌ missing | ❌ missing | ❌ missing | ✅ |
 | [captcha](https://github.com/Geeklog-Plugins/captcha) | ✅ | ❌ missing | ❌ missing | ❌ missing |
 | [classifieds](https://github.com/Geeklog-Plugins/classifieds) | ✅ | ❌ missing | ❌ missing | ❌ missing |
-| [contact](https://github.com/Geeklog-Plugins/contact) | ✅ | ❌ missing | ❌ missing | ❌ missing |
 | [documents](https://github.com/Geeklog-Plugins/documents) | ✅ | ❌ missing | ❌ missing | ❌ missing |
 | [dokuwiki](https://github.com/Geeklog-Plugins/dokuwiki) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
 | [downloads](https://github.com/Geeklog-Plugins/downloads) | ❌ missing | ❌ missing | ❌ missing | ✅ |
 | [faq](https://github.com/Geeklog-Plugins/faq) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
 | [faqman](https://github.com/Geeklog-Plugins/faqman) | ❌ missing | ✅ | ❌ missing | ⚠️ 2 missing |
 | [flickr](https://github.com/Geeklog-Plugins/flickr) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
-| [forms](https://github.com/Geeklog-Plugins/forms) | ✅ | ❌ missing | ❌ missing | ❌ missing |
 | [forum](https://github.com/Geeklog-Plugins/forum) | ⚠️ 1 missing | ⚠️ 23 missing | ⚠️ 23 missing | ✅ |
 | [gus](https://github.com/Geeklog-Plugins/gus) | ❌ missing | ❌ missing | ❌ missing | ✅ |
 | [hello](https://github.com/Geeklog-Plugins/hello) | ✅ | ❌ missing | ❌ missing | ❌ missing |
@@ -35,7 +32,7 @@ English (`language/english.php`) is the reference. Only plugins/languages requir
 | [mdigest](https://github.com/Geeklog-Plugins/mdigest) | ✅ | ❌ missing | ❌ missing | ❌ missing |
 | [menu](https://github.com/Geeklog-Plugins/menu) | ⚠️ 66 missing | ❌ missing | ❌ missing | ❌ missing |
 | [messenger](https://github.com/Geeklog-Plugins/messenger) | ❌ missing | ❌ missing | ❌ missing | ✅ |
-| [monitor](https://github.com/Geeklog-Plugins/monitor) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
+| [migrator](https://github.com/Geeklog-Plugins/migrator) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
 | [nettools](https://github.com/Geeklog-Plugins/nettools) | ❌ missing | ❌ missing | ❌ missing | ✅ |
 | [ogp](https://github.com/Geeklog-Plugins/ogp) | ❌ missing | ❌ missing | ❌ missing | ⚠️ 2 missing |
 | [paypal](https://github.com/Geeklog-Plugins/paypal) | ✅ | ❌ missing | ❌ missing | ❌ missing |
