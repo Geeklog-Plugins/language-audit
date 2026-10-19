@@ -1,6 +1,6 @@
 # Geeklog Plugins — Language Audit
 
-Generated: **2026-10-12 14:29 UTC**  
+Generated: **2026-10-19 12:12 UTC**  
 Organization: **Geeklog-Plugins**  
 Plugins audited: **40**
 
@@ -17,7 +17,7 @@ English (`language/english.php`) is the reference. Only plugins/languages requir
 | [classifieds](https://github.com/Geeklog-Plugins/classifieds) | ✅ | ❌ missing | ❌ missing | ❌ missing |
 | [documents](https://github.com/Geeklog-Plugins/documents) | ✅ | ❌ missing | ❌ missing | ❌ missing |
 | [dokuwiki](https://github.com/Geeklog-Plugins/dokuwiki) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
-| [downloads](https://github.com/Geeklog-Plugins/downloads) | ❌ missing | ❌ missing | ❌ missing | ✅ |
+| [downloads](https://github.com/Geeklog-Plugins/downloads) | ❌ missing | ❌ missing | ❌ missing | ⚠️ 4 missing |
 | [faq](https://github.com/Geeklog-Plugins/faq) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
 | [faqman](https://github.com/Geeklog-Plugins/faqman) | ❌ missing | ✅ | ❌ missing | ⚠️ 2 missing |
 | [flickr](https://github.com/Geeklog-Plugins/flickr) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
@@ -38,7 +38,7 @@ English (`language/english.php`) is the reference. Only plugins/languages requir
 | [paypal](https://github.com/Geeklog-Plugins/paypal) | ✅ | ❌ missing | ❌ missing | ❌ missing |
 | [quiz](https://github.com/Geeklog-Plugins/quiz) | ❌ missing | ❌ missing | ❌ missing | ❌ missing |
 | [recaptcha](https://github.com/Geeklog-Plugins/recaptcha) | ✅ | ❌ missing | ❌ missing | ✅ |
-| [searchrank](https://github.com/Geeklog-Plugins/searchrank) | ❌ missing | ✅ | ❌ missing | ✅ |
+| [searchrank](https://github.com/Geeklog-Plugins/searchrank) | ✅ | ⚠️ 41 missing | ❌ missing | ⚠️ 41 missing |
 | [store](https://github.com/Geeklog-Plugins/store) | ✅ | ❌ missing | ❌ missing | ❌ missing |
 | [tag](https://github.com/Geeklog-Plugins/tag) | ❌ missing | ❌ missing | ❌ missing | ✅ |
 | [themedit](https://github.com/Geeklog-Plugins/themedit) | ❌ missing | ❌ missing | ❌ missing | ✅ |
